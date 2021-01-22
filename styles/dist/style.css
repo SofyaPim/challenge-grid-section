@@ -5,9 +5,7 @@
 body {
   font-size: 13px;
   font-family: "BarlowSemiCondensed", sans-serif;
-  background-image: url("images/bn-abstract-pattern.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #E5E5E5;
 }
 
 .wrapper {
@@ -74,7 +72,7 @@ body {
   grid-row: 1;
 }
 .wrapper .card__container .white-tall {
-  box-shadow: 21px 25px 81px 1px #48556a;
+  box-shadow: 21px 25px 81px 1px #cfcfcf;
   background-color: white;
   grid-column: 4/5;
   grid-row: -3/-1;
@@ -83,9 +81,10 @@ body {
   background-color: #19212e;
   grid-column: 2/4;
   grid-row: 2;
+  z-index: 56;
 }
 .wrapper .card__container .white-short {
-  box-shadow: 21px 25px 81px 1px #19212e;
+  box-shadow: 21px 15px 81px 1px #cfcfcf;
   background-color: white;
   grid-column: 1/2;
   grid-row: 2;
