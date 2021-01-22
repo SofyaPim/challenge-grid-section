@@ -1,12 +1,12 @@
 @font-face {
   font-family: 'BarlowSemiCondensed';
-  src: url("/style/font/Barlow_Semi_Condensed/BarlowSemiCondensed-Medium.ttf") format(ttf);
+  src: url("style/font/Barlow_Semi_Condensed/BarlowSemiCondensed-Medium.ttf") format(ttf);
 }
 
 body {
   font-size: 13px;
   font-family: 'BarlowSemiCondensed', sans-serif;
-  background-image: url("/images/bn-abstract-pattern.jpeg");
+  background-image: url("images/bn-abstract-pattern.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }

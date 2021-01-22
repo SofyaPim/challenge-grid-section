@@ -1,6 +1,6 @@
 @font-face{
     font-family: 'BarlowSemiCondensed';
-    src: url("/style/font/Barlow_Semi_Condensed/BarlowSemiCondensed-Medium.ttf") format(ttf);
+    src: url("style/font/Barlow_Semi_Condensed/BarlowSemiCondensed-Medium.ttf") format(ttf);
 }
 // Colors Primary
 $violet:hsl(263, 55%, 52%);
@@ -29,7 +29,7 @@ body {
     font-size: 13px;
     font-family: 'BarlowSemiCondensed', sans-serif;
     // background-color: #E5E5E5;
-    background-image: url("/images/bn-abstract-pattern.jpeg");
+    background-image: url("images/bn-abstract-pattern.jpeg");
   
 
 background-repeat: no-repeat;
