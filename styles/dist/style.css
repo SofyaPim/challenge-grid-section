@@ -5,28 +5,27 @@
 body {
   font-size: 13px;
   font-family: "BarlowSemiCondensed", sans-serif;
-  background-color: #E5E5E5;
+  background-color: #ecf2f8;
 }
 
 .wrapper {
   background-color: #ecf2f8;
   opacity: 96%;
-  box-shadow: 5px 5px 20px white;
-  padding: 7.23rem;
+  padding: 5% 3%;
 }
 .wrapper .card__container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, minmax(19.6rem, 1fr));
   grid-template-rows: 1fr 1fr;
 }
 .wrapper .card__container .card {
   border-radius: 5px;
   min-width: 11.23rem;
-  margin: 0.6rem;
   padding: 1.3rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  margin: 10px;
 }
 .wrapper .card__container .card__header {
   display: flex;
@@ -112,6 +111,7 @@ body {
 .attribution {
   height: 2rem;
   box-sizing: border-box;
+  text-align: center;
 }
 .attribution a {
   text-decoration: none;
