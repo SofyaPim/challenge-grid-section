@@ -9,4 +9,4 @@
 
 ## Шрифт подключен с помощью правила @font-face
 
-# результат на 
+# результат на https://sofyapim.github.io/challenge-grid-section/
